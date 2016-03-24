@@ -11,5 +11,5 @@ RUN yum -y  install epel-release \
     && yum -y  install python-boto \
     && git clone https://github.com/kenthua/roadshow-ansible.git -b roadshow \
     && git clone https://github.com/openshift/openshift-ansible.git \
-    && yum clean 
+
 
